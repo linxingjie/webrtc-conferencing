@@ -1,5 +1,8 @@
 官方文档内的视频会议项目：启动方式通过node 直接启动node server.js 后续的学习与改造持续上传。。。<br>
 该项目连接的信令服务地址为https://socketio-over-nodejs2.herokuapp.com:443/ 可自己部署信令服务，通过信令服务地址去创建房间并监听房间内的各个用户，完成视讯连接。
+index.html的头部有hash参数，进入到对应相同的hash参数相同的网址才能接收到房间内的信息。 
+location.href = location.href.split('#')[0] + '#' + (Math.random() * 100).toString().replace('.', '');<br>
+
 # 信令服务地址/ [Demo](https://github.com/muaz-khan/WebRTC-Experiment/tree/master/socketio-over-nodejs/)
 
 
