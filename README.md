@@ -1,3 +1,8 @@
+官方文档内的视频会议项目：启动方式通过node 直接启动node server.js 后续的学习与改造持续上传。。。<br>
+
+
+
+
 # WebRTC Video Conferencing / [Demo](https://www.webrtc-experiment.com/video-conferencing/)
 
 1. This [WebRTC](https://www.webrtc-experiment.com/) experiment is aimed to transmit audio/video streams in many-to-many style.
