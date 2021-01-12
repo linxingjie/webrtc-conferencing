@@ -3,6 +3,8 @@
 index.html的头部有hash参数，进入到对应相同的hash参数相同的网址才能接收到房间内的信息。 
 location.href = location.href.split('#')[0] + '#' + (Math.random() * 100).toString().replace('.', '');<br>
 
+# STUN测试网址/ [url]( https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/)
+
 # 信令服务地址/ [Demo](https://github.com/muaz-khan/WebRTC-Experiment/tree/master/socketio-over-nodejs/)
 
 
